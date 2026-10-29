@@ -1,0 +1,148 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263746;
+    background-color: #f7fafc;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 11vh;
+    padding: 3vh 5vw;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5ebf0;
+}
+
+.logo {
+    display: inline-block;
+    width: 23%;
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #168b91;
+}
+
+.nav-links {
+    display: inline-block;
+    width: 56%;
+    text-align: center;
+    
+}
+
+.nav-links a {
+    display: inline-block;
+    margin: 0 1vw;
+    color: #52616d;
+    font-size: 1vw;
+   
+}
+
+.nav-links a:hover {
+    color: #168b91;
+}
+
+.username {
+    display: inline-block;
+    width: 19%;
+    text-align: right;
+    font-size: 1vw;
+    color: #168b91;
+    vertical-align: middle;
+}
+
+/* Hero section */
+.hero {
+    height: 78vh;
+    padding: 7vh 6vw;
+    font-size: 0;
+}
+
+.hero-content {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    padding-right: 3vw;
+    font-size: 1vw;
+}
+
+.tagline {
+    color: #168b91;
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: 0.15vw;
+}
+
+h1 {
+    font-size: 3.2vw;
+    line-height: 1.2;
+    margin: 2vh 0;
+    color: #243b4a;
+}
+
+.description {
+    font-size: 1.2vw;
+    line-height: 1.7;
+    color: #680667;
+    margin-bottom: 3vh;
+}
+
+.book-button {
+    display: inline-block;
+    padding: 1.8vh 2vw;
+    background: linear-gradient(90deg, #b00b13, #ed064f);
+    color: white;
+    font-size: 1.1vw;
+    font-weight: bold;
+    border-radius: 0.6vw;
+}
+
+.book-button:hover {
+    background: linear-gradient(90deg, #107278, #239a91);
+}
+
+.trust-text {
+    margin-top: 3vh;
+    color: #526d65;
+    font-size: 1vw;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 48%;
+    height: 58vh;
+    vertical-align: middle;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5vw;
+}
+
+
+.services {
+    height: 11vh;
+    text-align: center;
+    background-color: #e7f4f2;
+    padding: 1vh 2vw;font-size: 0.9vw;
+    font-size: 0.9vw;
+}
+
+.services h2 {
+    font-size: 1.4vw;
+    margin: 0.5vh 0;
+}
+
+
