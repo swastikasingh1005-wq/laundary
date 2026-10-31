@@ -1,50 +1,67 @@
-# Laundry Management Website
+# 🧺 Laundry Services – Responsive Website
 
-A simple and user-friendly Laundry Management Website developed as a web development project.
+## 📌 About the Project
 
-## About the Project
+This project is a responsive Laundry Services landing page developed using HTML and CSS. It is designed to provide a clean and user-friendly interface for a laundry service website.
 
-This project aims to provide a clean and convenient interface for users to access laundry services. It includes a login page with a modern design and a laundry-themed background.
+The main objective is to make the website responsive across desktop, tablet, and mobile devices using CSS Media Queries.
 
-## Features
+## ✨ Features
 
-- User login interface
-- Email and password input fields
-- Forgot password option
-- Sign-up option for new users
-- Responsive and clean UI design
-- Laundry-themed background image
+* **Responsive Navbar:** Displays navigation links on desktop and tablet while hiding them on mobile screens.
+* **Hero Section:** Includes a heading, description, call-to-action button, and washing machine image.
+* **Flexbox Layout:** Uses CSS Flexbox to arrange elements properly.
+* **Media Queries:** Adjusts font sizes, spacing, alignment, and image dimensions according to screen size.
+* **Mobile-Friendly Design:** Stacks the hero content vertically on smaller screens.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
+* HTML5
+* CSS3
+* CSS Flexbox
+* CSS Media Queries
 
-## Project Structure
+## 📱 Responsive Breakpoints
+
+| Device  | Screen Width    |
+| ------- | --------------- |
+| Desktop | Above 768px     |
+| Tablet  | 481px – 768px   |
+| Mobile  | 480px and below |
+
+## 📂 Project Structure
 
 ```text
-Laundry-Website/
+Laundry-Services/
 │
 ├── index.html
 ├── style.css
-└── README.md
+├── README.md
+│
+└── images/
+    └── washing-machine.png
 ```
 
-## How to Run
+## 🚀 How to Run the Project
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project folder in VS Code.
-3. Open `index.html` in your browser.
-4. Explore the website.
+3. Make sure the washing machine image is inside the `images` folder.
+4. Open `index.html` in your browser.
+5. For a better development experience, use the Live Server extension.
 
-## Future Improvements
+## 🎯 Learning Outcomes
 
-- User registration functionality
-- Password validation
-- Laundry service booking
-- Order tracking
-- Backend and database integration
+Through this task, I learned how to:
+
+* Create responsive layouts using CSS Flexbox.
+* Implement media queries for different screen sizes.
+* Adjust navbar elements for mobile devices.
+* Change the alignment and direction of elements.
+* Build a mobile-friendly landing page.
 
 ---
 
-**Developed as a Web Development Project.**
+**Task:** TD6 – CSS Responsive Issue
+**Project:** Laundry Services
+**Status:** Completed
