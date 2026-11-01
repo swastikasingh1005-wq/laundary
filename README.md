@@ -1,67 +1,58 @@
-# 🧺 Laundry Services – Responsive Website
+# TD7 – CSS Hamburger Menu in Mobile
 
-## 📌 About the Project
+## 📌 Project Overview
+This project implements a responsive hamburger navigation menu for a Laundry Web App using HTML and CSS.
 
-This project is a responsive Laundry Services landing page developed using HTML and CSS. It is designed to provide a clean and user-friendly interface for a laundry service website.
-
-The main objective is to make the website responsive across desktop, tablet, and mobile devices using CSS Media Queries.
+The hamburger menu is displayed only on mobile screens. When the user clicks the hamburger button, the navigation menu appears from the right side using the CSS `:focus` pseudo-class.
 
 ## ✨ Features
-
-* **Responsive Navbar:** Displays navigation links on desktop and tablet while hiding them on mobile screens.
-* **Hero Section:** Includes a heading, description, call-to-action button, and washing machine image.
-* **Flexbox Layout:** Uses CSS Flexbox to arrange elements properly.
-* **Media Queries:** Adjusts font sizes, spacing, alignment, and image dimensions according to screen size.
-* **Mobile-Friendly Design:** Stacks the hero content vertically on smaller screens.
+- Responsive navigation bar.
+- Hamburger menu visible only on mobile screens.
+- Navigation menu hidden by default.
+- Menu appears when the hamburger button receives focus.
+- Right-aligned menu panel.
+- Navigation links for Home, Services, About Us, and Contact Us.
+- No JavaScript used.
 
 ## 🛠️ Technologies Used
-
-* HTML5
-* CSS3
-* CSS Flexbox
-* CSS Media Queries
-
-## 📱 Responsive Breakpoints
-
-| Device  | Screen Width    |
-| ------- | --------------- |
-| Desktop | Above 768px     |
-| Tablet  | 481px – 768px   |
-| Mobile  | 480px and below |
+- HTML5
+- CSS3
+- Flexbox
+- CSS Media Queries
+- CSS `:focus` pseudo-class
+- Adjacent Sibling Selector (`+`)
 
 ## 📂 Project Structure
 
 ```text
-Laundry-Services/
+TD7-Hamburger-Menu/
 │
 ├── index.html
 ├── style.css
-├── README.md
-│
-└── images/
-    └── washing-machine.png
+└── README.md
 ```
 
-## 🚀 How to Run the Project
+## ⚙️ How It Works
+
+1. The hamburger button is hidden by default on desktop screens.
+2. CSS Media Queries make it visible on mobile screens.
+3. The navigation menu is initially hidden using `display: none`.
+4. The `:focus` pseudo-class detects when the hamburger button receives focus.
+5. The adjacent sibling selector (`+`) displays the navigation menu.
+
+## 🚀 How to Run
 
 1. Clone or download this repository.
 2. Open the project folder in VS Code.
-3. Make sure the washing machine image is inside the `images` folder.
-4. Open `index.html` in your browser.
-5. For a better development experience, use the Live Server extension.
+3. Open `index.html` in your browser.
+4. Use Chrome Developer Tools to switch to mobile responsive view.
+5. Click the hamburger icon to view the navigation menu.
 
-## 🎯 Learning Outcomes
+## 🎯 Learning Outcome
 
-Through this task, I learned how to:
-
-* Create responsive layouts using CSS Flexbox.
-* Implement media queries for different screen sizes.
-* Adjust navbar elements for mobile devices.
-* Change the alignment and direction of elements.
-* Build a mobile-friendly landing page.
+Learned how to create a CSS-only hamburger menu using Flexbox, media queries, pseudo-classes, and sibling selectors without JavaScript.
 
 ---
 
-**Task:** TD6 – CSS Responsive Issue
-**Project:** Laundry Services
+**Project:** Tutedude TD7 – CSS Hamburger Menu in Mobile  
 **Status:** Completed
