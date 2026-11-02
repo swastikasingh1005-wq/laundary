@@ -1,58 +1,46 @@
-# TD7 – CSS Hamburger Menu in Mobile
+# Laundry Website – Task 4
 
-## 📌 Project Overview
-This project implements a responsive hamburger navigation menu for a Laundry Web App using HTML and CSS.
+## About the Project
+A responsive laundry service website built using HTML and CSS. The project focuses on creating a clean and user-friendly interface with a responsive hero section and interactive hover effects.
 
-The hamburger menu is displayed only on mobile screens. When the user clicks the hamburger button, the navigation menu appears from the right side using the CSS `:focus` pseudo-class.
+## Features
+- Responsive website layout
+- Navigation bar
+- Hero section with image
+- Call-to-action button
+- Smooth hover effects
+- Responsive design for mobile screens
 
-## ✨ Features
-- Responsive navigation bar.
-- Hamburger menu visible only on mobile screens.
-- Navigation menu hidden by default.
-- Menu appears when the hamburger button receives focus.
-- Right-aligned menu panel.
-- Navigation links for Home, Services, About Us, and Contact Us.
-- No JavaScript used.
-
-## 🛠️ Technologies Used
+## Technologies Used
 - HTML5
 - CSS3
 - Flexbox
 - CSS Media Queries
-- CSS `:focus` pseudo-class
-- Adjacent Sibling Selector (`+`)
+- CSS Transitions and Hover Effects
 
-## 📂 Project Structure
-
+## Project Structure
 ```text
-TD7-Hamburger-Menu/
+Task 4/
 │
 ├── index.html
 ├── style.css
+├── image.png
 └── README.md
 ```
 
-## ⚙️ How It Works
-
-1. The hamburger button is hidden by default on desktop screens.
-2. CSS Media Queries make it visible on mobile screens.
-3. The navigation menu is initially hidden using `display: none`.
-4. The `:focus` pseudo-class detects when the hamburger button receives focus.
-5. The adjacent sibling selector (`+`) displays the navigation menu.
-
-## 🚀 How to Run
-
+## How to Run
 1. Clone or download this repository.
 2. Open the project folder in VS Code.
 3. Open `index.html` in your browser.
-4. Use Chrome Developer Tools to switch to mobile responsive view.
-5. Click the hamburger icon to view the navigation menu.
+4. You can also use the Live Server extension.
 
-## 🎯 Learning Outcome
-
-Learned how to create a CSS-only hamburger menu using Flexbox, media queries, pseudo-classes, and sibling selectors without JavaScript.
+## Learning Outcomes
+- Practiced responsive web design.
+- Learned CSS hover effects and transitions.
+- Improved understanding of Flexbox and media queries.
+- Learned to structure a website using HTML and CSS.
 
 ---
-
-**Project:** Tutedude TD7 – CSS Hamburger Menu in Mobile  
+**Project:** Laundry Website  
+**Task:** 4  
 **Status:** Completed
