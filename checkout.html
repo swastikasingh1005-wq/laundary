@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Thala 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Thala <span>7.</span>
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#brands">Brands</a>
+            <a href="product.html">Shop</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+            <a href="product.html">⌕</a>
+            <a href="cart.html">🛒</a>
+            <a href="#">👤</a>
+        </div>
+
+    </header>
+
+
+   
+    <main class="checkout-page">
+
+        <p class="tagline">SECURE CHECKOUT</p>
+
+        <h1>Complete Your Purchase</h1>
+
+        <div class="checkout-layout">
+
+
+           
+            <section class="payment-details">
+
+                <h2>Contact Details</h2>
+
+                <label for="email">Email ID</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+
+
+                <h2>Payment Method</h2>
+
+
+                
+                <div class="payment-methods">
+
+                    <label class="payment-option">
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="card"
+                            checked
+                        >
+                        <span>💳 Card</span>
+                    </label>
+
+                    <label class="payment-option">
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="crypto"
+                        >
+                        <span>₿ Crypto</span>
+                    </label>
+
+                    <label class="payment-option">
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="bank"
+                        >
+                        <span>🏦 Bank</span>
+                    </label>
+
+                </div>
+
+
+               
+                <div class="payment-panels">
+
+
+                    
+                    <div class="payment-panel card-panel">
+
+                        <h2>Card Details</h2>
+
+                        <label for="card-number">
+                            Card Number
+                        </label>
+
+                        <input
+                            type="text"
+                            id="card-number"
+                            placeholder="1234 5678 9012 3456"
+                        >
+
+                        <label for="card-holder">
+                            Card Holder Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="card-holder"
+                            placeholder="Enter card holder name"
+                        >
+
+                        <div class="input-row">
+
+                            <div>
+                                <label for="expiry">
+                                    Expiry Date
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="expiry"
+                                    placeholder="MM/YY"
+                                >
+                            </div>
+
+                            <div>
+                                <label for="cvv">
+                                    CVV
+                                </label>
+
+                                <input
+                                    type="password"
+                                    id="cvv"
+                                    placeholder="***"
+                                >
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CRYPTO PAYMENT -->
+                    <div class="payment-panel crypto-panel">
+
+                        <h2>Crypto Payment</h2>
+
+                        <label for="crypto-type">
+                            Select Cryptocurrency
+                        </label>
+
+                        <select id="crypto-type">
+                            <option>Bitcoin (BTC)</option>
+                            <option>Ethereum (ETH)</option>
+                            <option>USDT</option>
+                        </select>
+
+                        <label for="wallet">
+                            Wallet Address
+                        </label>
+
+                        <input
+                            type="text"
+                            id="wallet"
+                            placeholder="Enter wallet address"
+                        >
+
+                        <label for="transaction">
+                            Transaction ID
+                        </label>
+
+                        <input
+                            type="text"
+                            id="transaction"
+                            placeholder="Enter transaction ID"
+                        >
+
+                        <p class="payment-note">
+                            Select your cryptocurrency and enter
+                            the transaction details.
+                        </p>
+
+                    </div>
+
+
+                    <!-- BANK PAYMENT -->
+                    <div class="payment-panel bank-panel">
+
+                        <h2>Bank Transfer</h2>
+
+                        <label for="account-holder">
+                            Account Holder Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="account-holder"
+                            placeholder="Enter account holder name"
+                        >
+
+                        <label for="bank-name">
+                            Select Bank
+                        </label>
+
+                        <select id="bank-name">
+                            <option value="">Select Bank</option>
+                            <option>SBI</option>
+                            <option>HDFC Bank</option>
+                            <option>ICICI Bank</option>
+                            <option>Axis Bank</option>
+                        </select>
+
+                        <label for="account-number">
+                            Account Number
+                        </label>
+
+                        <input
+                            type="text"
+                            id="account-number"
+                            placeholder="Enter account number"
+                        >
+
+                        <label for="ifsc">
+                            IFSC Code
+                        </label>
+
+                        <input
+                            type="text"
+                            id="ifsc"
+                            placeholder="Enter IFSC code"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <button type="button" class="primary-btn pay-btn">
+                    Pay Now ₹9,997
+                </button>
+
+                <p class="payment-note">
+                    🔒 Secure Checkout
+                </p>
+
+            </section>
+
+
+
+            
+            <aside class="checkout-summary">
+
+                <h2>Order Summary</h2>
+                <div class="summary-product">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300"
+                        alt="Red sneaker"
+                    >
+
+                    <div>
+                        <h3>Air Max Sport</h3>
+                        <p>Quantity: 1</p>
+                        <strong>₹4,999</strong>
+                    </div>
+
+                </div>
+                <div class="summary-product">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1552346154-21d32810aba3?w=300"
+                        alt="White sneaker"
+                    >
+
+                    <div>
+                        <h3>Classic White</h3>
+                        <p>Quantity: 1</p>
+                        <strong>₹4,499</strong>
+                    </div>
+
+                </div>
+                <div class="coupon-box">
+
+                    <label for="coupon">
+                        Enter Coupon Code
+                    </label>
+
+                    <div class="coupon-input">
+
+                        <input
+                            type="text"
+                            id="coupon"
+                            placeholder="COUPON CODE"
+                        >
+
+                        <button type="button">
+                            Apply
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Price Details -->
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>₹9,498</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Taxes</span>
+                    <span>₹499</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Discount</span>
+                    <span>₹0</span>
+                </div>
+
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span>₹9,997</span>
+                </div>
+
+
+                <div class="secure-payment">
+                    🔒 Secure Payment | Razorpay
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+    <footer>
+
+        <h2>Thala <span>7.</span></h2>
+
+        <p>Step into your style. Every step has a reason.</p>
+
+        <p>© 2026 Thala 7 Sneaker Store.</p>
+
+    </footer>
+
+</body>
+</html>
