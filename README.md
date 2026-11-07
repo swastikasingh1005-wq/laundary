@@ -1,31 +1,73 @@
+# 👟 Thala 7 – Sneaker Store
 
-# Hero Section Image Animation
+**Thala 7** is a modern and responsive sneaker e-commerce website built using **HTML5 and CSS3 only**. It provides a clean shopping experience with attractive product displays, a shopping cart, and a checkout interface.
 
-## Description
-This project demonstrates an animated hero section image using CSS keyframes. The image moves in an orbit-like pattern with smooth squeezing and stretching effects.
+## 🚀 Features
 
-## Features
-- Smooth image movement
-- Orbit-like animation
-- Squeezing and stretching effects
-- Infinite animation loop
-- Responsive hero section
+### 1. Landing Page
+- Modern navigation bar.
+- Attractive hero section.
+- Featured sneaker collection.
+- Customer reviews and service highlights.
+- Responsive layout.
 
-## Technologies Used
-- HTML5
-- CSS3
+### 2. Product Page
+- Product image and description.
+- Product pricing and ratings.
+- Shoe size selection.
+- Quantity display.
+- Product gallery.
+- Add to Cart navigation.
 
-## CSS Concepts Learned
-- CSS Keyframes
-- Transform
-- Translate
-- Scale
-- Animation Timing Functions
+### 3. Shopping Cart
+- Product listing.
+- Quantity display.
+- Coupon code input interface.
+- Order summary.
+- Subtotal, taxes, discount and total price.
+- Proceed to Checkout option.
 
-## How to Run
-1. Download or clone the repository.
+### 4. Checkout Page
+- Customer email input.
+- Three payment methods:
+  - Card Payment
+  - Cryptocurrency Payment
+  - Bank Transfer
+- Different payment forms for each method.
+- Dynamic form visibility using CSS `:has()` selector.
+- Order summary and secure checkout interface.
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Website structure and content.
+- **CSS3** – Styling, layouts, animations and responsiveness.
+- **CSS Flexbox** – Flexible layouts.
+- **CSS Grid** – Product and checkout layouts.
+- **CSS Media Queries** – Responsive design.
+- **CSS Pseudo-classes** – Interactive effects and payment form switching.
+
+## 📁 Project Structure
+
+```text
+Thala-7-Sneaker-Store/
+│
+├── index.html
+├── product.html
+├── cart.html
+├── checkout.html
+├── style.css
+└── README.md
+```
+
+## ▶️ How to Run the Project
+
+1. Clone or download this repository.
 2. Open the project folder in VS Code.
 3. Open `index.html` in your browser.
+4. Alternatively, use the Live Server extension in VS Code.
+5. Navigate through the website using the navigation links.
 
-## Author
-Swastika Singh
+## 🎨 Design Highlights
+
+- Clean and modern user interface.
+- Orange and
