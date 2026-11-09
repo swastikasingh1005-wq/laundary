@@ -1,73 +1,41 @@
-# 👟 Thala 7 – Sneaker Store
 
-**Thala 7** is a modern and responsive sneaker e-commerce website built using **HTML5 and CSS3 only**. It provides a clean shopping experience with attractive product displays, a shopping cart, and a checkout interface.
+# Compound Interest Calculator
 
-## 🚀 Features
+## Description
+A simple JavaScript project that calculates compound interest using predefined values.
 
-### 1. Landing Page
-- Modern navigation bar.
-- Attractive hero section.
-- Featured sneaker collection.
-- Customer reviews and service highlights.
-- Responsive layout.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-### 2. Product Page
-- Product image and description.
-- Product pricing and ratings.
-- Shoe size selection.
-- Quantity display.
-- Product gallery.
-- Add to Cart navigation.
+## Formula
 
-### 3. Shopping Cart
-- Product listing.
-- Quantity display.
-- Coupon code input interface.
-- Order summary.
-- Subtotal, taxes, discount and total price.
-- Proceed to Checkout option.
+A = P(1 + r/n)^(n*t)
 
-### 4. Checkout Page
-- Customer email input.
-- Three payment methods:
-  - Card Payment
-  - Cryptocurrency Payment
-  - Bank Transfer
-- Different payment forms for each method.
-- Dynamic form visibility using CSS `:has()` selector.
-- Order summary and secure checkout interface.
+Where:
+- A = Final Amount
+- P = Principal Amount
+- r = Annual Rate of Interest
+- n = Compounding Frequency
+- t = Time Period in Years
 
-## 🛠️ Technologies Used
+Compound Interest = A - P
 
-- **HTML5** – Website structure and content.
-- **CSS3** – Styling, layouts, animations and responsiveness.
-- **CSS Flexbox** – Flexible layouts.
-- **CSS Grid** – Product and checkout layouts.
-- **CSS Media Queries** – Responsive design.
-- **CSS Pseudo-classes** – Interactive effects and payment form switching.
+## Features
+- Uses predefined values.
+- Calculates compound interest.
+- Displays the total amount and interest.
+- Uses JavaScript Math.pow() function.
+- Displays results on the webpage and console.
 
-## 📁 Project Structure
-
-```text
-Thala-7-Sneaker-Store/
-│
-├── index.html
-├── product.html
-├── cart.html
-├── checkout.html
-├── style.css
-└── README.md
-```
-
-## ▶️ How to Run the Project
-
-1. Clone or download this repository.
+## How to Run
+1. Download or clone the repository.
 2. Open the project folder in VS Code.
-3. Open `index.html` in your browser.
-4. Alternatively, use the Live Server extension in VS Code.
-5. Navigate through the website using the navigation links.
+3. Open index.html in your browser.
+4. Open Developer Tools (F12) and check the Console for output.
 
-## 🎨 Design Highlights
+## Author
+Swastika Singh
 
-- Clean and modern user interface.
-- Orange and
+
